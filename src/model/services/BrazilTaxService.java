@@ -9,7 +9,7 @@ package model.services;
  * @author Matos - 17.06.2023
  *
  */
-public class BrazilTaxService {
+public class BrazilTaxService implements TaxService {
 
 	public Double taxService(Double amount) {
 		
